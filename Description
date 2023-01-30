@@ -1,0 +1,6 @@
+Here we have 2 videos video containing books and other video
+there is a book in the books video which is required to view the other video on
+We get corners of this book on each frame by getting homography matrix we warp corners of main book given image to get corners in the frame
+and cut the corresponding frame in the other video from the middle
+paste this cut part on the book video
+Do this for all frames and make a video.
